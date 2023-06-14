@@ -13,6 +13,7 @@ Compile and run the code using the following commands in the terminal:
 
 
 javac LaunchGame.java
+
 java LaunchGame
 
 
