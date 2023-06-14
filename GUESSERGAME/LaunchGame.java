@@ -1,3 +1,5 @@
+//Code by Intakhab Alam
+
 import java.util.*;
 // package GUESSERGAME;
 
