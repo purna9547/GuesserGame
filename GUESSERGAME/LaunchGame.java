@@ -1,7 +1,6 @@
 //Code by Intakhab Alam
 
 import java.util.*;
-// package GUESSERGAME;
 
 public class LaunchGame {
     public static void main(String[] args) {
