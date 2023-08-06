@@ -1,4 +1,6 @@
-//Code by Intakhab Alam
+
+//Code by Purna Chandra Pradhan
+//This is purna chandra pradhan and i did some changes in the guesser game that is forked from the intakhab alam repository
 
 import java.util.*;
 
@@ -9,15 +11,12 @@ public class LaunchGame {
     }
 }
 
-
 class Login {
     public void login() {
         FBCompany FBC = new FBCompany();
         FBC.checking();
     }
 }
-
-
 
 class FBCompany {
 
@@ -51,13 +50,12 @@ class FBCompany {
 }
 
 class RandomNum {
-	int randomNum() {
-		Random rand = new Random();
-		int max=155,min=0;
-	    return rand.nextInt(max - min + 1) + min;
-	}
+    int randomNum() {
+        Random rand = new Random();
+        int max = 155, min = 0;
+        return rand.nextInt(max - min + 1) + min;
+    }
 }
-
 
 class Guesser {
     int guessNum;
@@ -138,13 +136,14 @@ class Facebook {
     String user1 = "i";
     String pass1 = "i";
     Scanner scan = new Scanner(System.in);
+
     public void input() {
-        
-            System.out.print("Enter your username: ");
-            user1 = scan.next();
-            System.out.println("Enter your password");
-            pass1 = scan.next();
-        
+
+        System.out.print("Enter your username: ");
+        user1 = scan.next();
+        System.out.println("Enter your password");
+        pass1 = scan.next();
+
     }
 
     public void validation() throws MyException1 {
